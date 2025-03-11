@@ -1,6 +1,6 @@
 # SimQN
 
-![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg) 
+[![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg) 
 
 Welcome to SimQN's documentation. SimQN is a discrete-event-based network simulation platform for quantum networks.
