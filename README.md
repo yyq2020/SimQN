@@ -1,7 +1,21 @@
 # SimQN
 
+- [SimQN](#simqn)
+  - [Overview](#overview)
+  - [Why choose SimQN?](#why-choose-simqn)
+  - [Installation](#installation)
+  - [First sight of SimQN](#first-sight-of-simqn)
+  - [Get Help](#get-help)
+  - [Roadmap](#roadmap)
+  - [Release History](#release-history)
+  - [How to contribute?](#how-to-contribute)
+  - [License and Authors](#license-and-authors)
+  - [Ciatation](#ciatation)
+
+## Overview
+
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
-![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg) 
+![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
 
 Welcome to SimQN's documentation. SimQN is a discrete-event-based network simulation platform for quantum networks.
 SimQN enables large-scale investigations, including QKD protocols, entanglement distributions protocols, and routing algorithms, resource allocation schemas in quantum networks. For example, users can use SimQN to design routing algorithms for better QKD performance. For more information, please refer to the [Documents](https://qnlab-ustc.github.io/SimQN/).
@@ -10,12 +24,11 @@ SimQN is a Python3 library for quantum networking simulation. It is designed to 
 
 SimQN provides high performance for large-scale network simulation. SimQN uses [Cython](https://cython.org/) to compile critical codes in C/C++ libraries to boost the evaluation. Also, along with the commonly used quantum state-based physical models, SimQN provides a higher-layer fidelity-based entanglement physical model to reduce the computation overhead and brings convenience for users in evaluation. Last but not least, SimQN provides several network auxiliary models for easily building network topologies, producing routing tables and managing multiple session requests.
 
-## Get Help
+## Why choose SimQN?
 
-- This [documentation](https://qnlab-ustc.github.io/SimQN/) may answer most questions.
-    - The [tutorial](https://qnlab-ustc.github.io/SimQN/tutorials.html) here presents how to use SimQN.
-    - The [API manual](https://qnlab-ustc.github.io/SimQN/modules.html) shows more detailed information.
-- Welcome to report bugs at [Github](https://github.com/QNLab-USTC/SimQN).
+SimQN is designed as a functional and easy-to-use simulator, like [NS3](https://www.nsnam.org/) in classic networks, it provides numerous functions for anyone who wants to simulate a QKD network or entanglement-based network.
+
+Compared with the existing quantum network simulators, the developers pay more attention to simulation in the network area. Currently, a network simulation can be complicated, as users may have to implement routing algorithms and multiply protocols in different layers to complete a simulation. SimQN aims to break down this problem by providing a modulized quantum node and reusable algorithms and protocols. As a result, users can focus on what they study and reuse other built-in modules. The developers believe this will significantly reduce the burden on our users. As for the physics area, SimQN can also simulate quantum noise, fidelity, and more. Thus, if you focus on the research of the quantum network area, SimQN can be a competitive choice.
 
 ## Installation
 
@@ -24,7 +37,7 @@ Install and update using `pip`:
 pip3 install -U qns
 ```
 
-# First sight of SimQN
+## First sight of SimQN
 
 Here is an example of using SimQN.
 
@@ -79,11 +92,44 @@ Here is an example of using SimQN.
     # run simulation
     s.run()
 ```
-# FAQ
-## Why choose SimQN?
-SimQN is designed as a functional and easy-to-use simulator, like [NS3](https://www.nsnam.org/) in classic networks, it provides numerous functions for anyone who wants to simulate a QKD network or entanglement-based network. 
 
-Compared with the existing quantum network simulators, the developers pay more attention to simulation in the network area. Currently, a network simulation can be complicated, as users may have to implement routing algorithms and multiply protocols in different layers to complete a simulation. SimQN aims to break down this problem by providing a modulized quantum node and reusable algorithms and protocols. As a result, users can focus on what they study and reuse other built-in modules. The developers believe this will significantly reduce the burden on our users. As for the physics area, SimQN can also simulate quantum noise, fidelity, and more. Thus, if you focus on the research of the quantum network area, SimQN can be a competitive choice. 
+## Get Help
+
+- This [documentation](https://qnlab-ustc.github.io/SimQN/) may answer most questions.
+    - The [tutorial](https://qnlab-ustc.github.io/SimQN/tutorials.html) here presents how to use SimQN.
+    - The [API manual](https://qnlab-ustc.github.io/SimQN/modules.html) shows more detailed information.
+- Welcome to report bugs at [Github](https://github.com/QNLab-USTC/SimQN).
+
+## Roadmap
+
+![Roadmap](https://github.com/QNLab-USTC/QuantumNetworkWebsite/blob/main/static/images/simqn_roadmap.png)
+
+- Currently, we are foucsing on developing the 0.2.x version of SimQN, which will include:
+  - Useful network utilities, such as more random topology generators, routing algorithms, and session request generators, real topology adaptors, and Multi-path routing algorithms.
+  - Representative quantum network protocols, such as Q-CAST routing protocol, PS/PU routing protocol, REPS routing protocol for quantum information networks, and CASCADE error correction protocol for QKD networks.
+
+- The follwing functions will be included in the future versions:
+  - Practical quantum network entities, such as quantum repeaters, quantum switches, and quantum benchmarking devices.
+  - Useful network utilities, such as random request traffic generators.
+  - Support for Quantum network stack protocols, incluing KM protocols, routing protocols in QKD networks, and entanglement distribution protocols in quantum information networks.
+  - Realization of easy-to-use GUI for SimQN.
+
+## Release History
+
+- v0.1.5(Released 2022.09)
+  - *New functions!!!*
+  - Simulator Core: Cython Optimization, Multi-process Support.
+  - Quantum Entitise: Quantum Memory, Delay Model.
+  - Tools: Monitor Tools.
+
+- v0.1.4(Released 2022.03)
+  - *New functions!!!*
+  - Simulator Core: Priority Queue Based Event Scheduler.
+  - Physical Backends: Qubit Model, EPR Model, Quantum Gates.
+  - Quantum Entitise: Quantum Node, Quantum Channel.
+  - Network Utilities: Topology Generator, Routing Utility.
+  - Applications: BB84 Protocol, Entanglement Swapping Protocol.
+  - Tools: Rnd Tools.
 
 ## How to contribute?
 Welcome to contribute through Github Issue or Pull Requests. Please refer to the [develop guide](https://qnlab-ustc.github.io/SimQN/develop.html). If you have any questions, you are welcome to contact the developers via e-mail.
@@ -104,3 +150,21 @@ Other contributors includes:
 * Yuqi Yang, School of Cyber Science and Technology, University of Science and Technology of China, China.
 * Bing Yang, School of Cyber Science and Technology, University of Science and Technology of China, China.
 * Xumin Gao, School of Cyber Science and Technology, University of Science and Technology of China, China.
+
+## Ciatation
+
+Please cite this paper if you use SimQN in your research.
+
+```Bibtex
+@article{chen2023simqn,
+  title={SimQN: A network-layer simulator for the quantum network investigation},
+  author={Chen, Lutong and Xue, Kaiping and Li, Jian and Yu, Nenghai and Li, Ruidong and Sun, Qibin and Lu, Jun},
+  journal={IEEE Network},
+  volume={37},
+  number={5},
+  pages={182--189},
+  year={2023},
+  publisher={IEEE},
+  doi={10.1109/MNET.130.2200481}
+}
+```
