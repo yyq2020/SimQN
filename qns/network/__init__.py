@@ -18,10 +18,13 @@
 from qns.network.network import QuantumNetwork, QNSNetworkError
 from qns.network.requests import Request
 from qns.network.topology import Topology, LineTopology, RandomTopology, \
-    GridTopology, TreeTopology, BasicTopology, WaxmanTopology
+    GridTopology, TreeTopology, BasicTopology, WaxmanTopology, \
+    ErdosRenyiTopology, BarabasiAlbertTopology, DualBarabasiAlbertTopology
 from qns.network.route.route import RouteImpl, NetworkRouteError
 from qns.network.route.dijkstra import DijkstraRouteAlgorithm
 
 __all__ = ["QuantumNetwork", "Request", "Topology", "LineTopology", "NetworkRouteError",
-           "RandomTopology", "GridTopology", "TreeTopology", "BasicTopology", "WaxmanTopology",
+           "RandomTopology", "GridTopology", "TreeTopology", "BasicTopology", "WaxmanTopology", "ErdosRenyiTopology",
+           "BarabasiAlbertTopology",
+           "DualBarabasiAlbertTopology",
            "RouteImpl", "DijkstraRouteAlgorithm", "QNSNetworkError"]
