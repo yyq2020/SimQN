@@ -37,8 +37,10 @@ class DualBarabasiAlbertTopology(Topology):
         """
         Args:
             nodes_number: the number of Qnodes
-            edges_num1: the number of edges of a new node, must be greater than 0 and less than nodes_number following the probability `prob`
-            edges_num2: the number of edges of a new node, must be greater than 0 and less than nodes_number following the probability `1-prob`
+            edges_num1: the number of edges of a new node, must be greater than 0 and less than nodes_number following the \
+            probability `prob`
+            edges_num2: the number of edges of a new node, must be greater than 0 and less than nodes_number following the \
+            probability `1-prob`
         """
         super().__init__(nodes_number, nodes_apps, qchannel_args, cchannel_args, memory_args)
         self.edges_num1 = edges_num1
