@@ -69,5 +69,17 @@ def get_choice(a):
     return a[get_randint(0, len(a)-1)]
 
 
+def get_weighted_choice(a, weights, k=1):
+    """
+    return k random element from a list with weights
+
+    Args:
+        a: a iterable object
+        weights: a list of weights
+        k: the number of random sample elements
+    """
+    return random.choices(a, weights=weights, k=k)
+
+
 def get_normal(mean: float = 0, std: float = 1):
     return np.random.normal(loc=mean, scale=std)
