@@ -2,7 +2,7 @@ from qns.entity.cchannel.cchannel import ClassicChannel
 from qns.entity.qchannel.qchannel import QuantumChannel
 from qns.entity import QNode
 from qns.simulator.simulator import Simulator
-from qns.network.protocol.bb84 import BB84RecvApp, BB84SendApp
+from qns.network.protocol.bb84 import BB84RecvApp, BB84SendApp, KEY_BLOCK_SIZE
 import numpy as np
 
 light_speed = 299791458
@@ -39,5 +39,7 @@ for length in [1000, 5000, 10000, 50000, 100000, 150000]:
         n2.install(s)
 
         s.run()
-        results.append(len(rp.succ_key_pool) / 10)
+        results.append(len(sp.key_pool)*KEY_BLOCK_SIZE / 10)
+        print("length", length, "sp key block num", len(sp.key_pool))
+        print("length", length, "rp key block num", len(rp.key_pool))
     print(length, np.mean(results), np.std(results))

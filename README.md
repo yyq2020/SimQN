@@ -116,6 +116,11 @@ Here is an example of using SimQN.
 
 ## Release History
 
+- v0.2.1(Released 2025.04)
+  - *New functions!!!*
+  - Network Utilities: Add Random Topology Generator, including ER model, BA model, and dual-BA model.
+  - Applications: Add CASCADE Error Correction and Privacy Amplification Process for BB84 Protocol.
+
 - v0.1.5(Released 2022.09)
   - *New functions!!!*
   - Simulator Core: Cython Optimization, Multi-process Support.
