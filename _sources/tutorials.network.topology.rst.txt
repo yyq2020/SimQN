@@ -34,11 +34,14 @@ Topology generators may have more parameters. The following example shows how to
 SimQn provides several topology generators:
 
 - ``BasicTopology`` generates several quantum nodes but no quantum channels. All nodes are not connected with each other.
-- ``LineTopology`` connects all nodes to from a line topology. 
+- ``LineTopology`` connects all nodes to from a line topology.
 - ``GridTopology`` forms a square grid topology. ``nodes_number`` should be a perfect square number.
 - ``TreeTopology`` generates a tree topology. It has an additional parameter ``children_number``. Each parent node will connect to  ``children_number`` child nodes.
 - ``RandomTopology`` generates a connected random topology based on the spanning tree. It has an additional parameter ``lines_number`` indicating the number of quantum channels.
 - ``WaxmanTopology`` is another random topology generator based on the Waxman's algorithm. It has three additional parameters, ``size``, ``alpha``, and ``bete``. The topology is in a :math:`size*size` area. Both ``alpha`` and ``bete`` are parameters of the Waxman's algorithm.
+- ``ErdosRenyiTopology`` is is randomly generated following the Erdos-Rényi model (G(n, p) model). In this model, each pair of nodes has a fixed probability `generate_prob` of being connected by a quantum channel. This model is widely used for studying random networks.
+- ``BarabasiAlbertTopology`` is a random topology generator based on the Barabasi-Albert model. Each new QNode added has `new_nodes_egdes` to existing QNodes. The probability of a new QNode connecting to an existing QNode is proportional to the degree of the existing QNode.
+- ``DualBarabasiAlbertTopology`` is a random topology generator based on the Dual Barabási-Albert model. This model extends the Barabási-Albert model by introducing two different edge attachment rules. Each new node connects to existing nodes with either `edges_num1` or `edges_num2` edges, based on a probability `prob`. The attachment probability is proportional to the degree of the existing nodes.
 
 Users can build their own topology by inheriting the ``Topology`` class and implement the ``build`` method.
 
@@ -92,12 +95,12 @@ The ``QuantumNetwork`` provides the following APIs to get or add nodes, channels
     n2 = QNode(name="n2")
     net.add_node(n2)
 
-      # get a quantum channel by its name
-    l1 = net.get_qchannel("l1,2")
+    # get a quantum channel by its name
+    l1 = net.get_qchannel("l1")
 
     # add a quantum channel
     l2 = QuantumChannel("l2")
-    net.add_qchannel(l2)
+    net.add_node(l2)
 
     node_list = net.nodes # get all nodes
     qchannel_list = net.qchannels # get all quantum channels
