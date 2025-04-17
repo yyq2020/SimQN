@@ -38,4 +38,4 @@ def test_bb84_protocol():
     n2.install(s)
 
     s.run()
-    print(sp.fail_number)
+    print(sp.key_pool)
