@@ -4,6 +4,7 @@
 
 - [SimQN](#simqn)
   - [Overview](#overview)
+  - [News](#News)
   - [Roadmap](#roadmap)
   - [Why choose SimQN?](#why-choose-simqn)
   - [Installation](#installation)
