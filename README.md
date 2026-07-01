@@ -1,8 +1,8 @@
 # SimQN
-!\[License]\(https://img.shields.io/badge/license-GPL_3.0-green)
+![License](https://img.shields.io/badge/license-GPL_3.0-green)
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
-!\[Stars]\(https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=social)
+![Stars](https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=social)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/qns?style=flat&logo=pypi&label=PyPI)](https://pypi.org/project/qns/)&nbsp;
 [![Citations](https://img.shields.io/badge/Citations-66-blue?style=plastic&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
 [![Academic Usages](https://img.shields.io/badge/Academic_Usages-21-purple?style=plastic)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
