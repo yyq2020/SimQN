@@ -1,10 +1,11 @@
 # SimQN
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
-[![Citations](https://img.shields.io/badge/Citations-47-blue?style=flat-square)](https://scholar.google.com/scholar?cites=)&nbsp;
-[![Extensions](https://img.shields.io/badge/Extensions-7-green?style=flat-square)](#platform-extension)&nbsp;
-[![Users](https://img.shields.io/badge/Users-24-brightgreen?style=flat-square)](#academic-paper-using-simqn-for-simulation)
-
+[![GitHub Stars](https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=flat-square&color=blue)](https://github.com/QNLab-USTC/SimQN)&nbsp;
+[![PyPI Downloads](https://img.shields.io/pypi/dm/qns?style=flat-square&color=green&label=PyPI%20Downloads)](https://pypi.org/project/qns/)&nbsp;
+[![Citations](https://img.shields.io/badge/Citations-66-blue?style=flat-square&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
+[![Academic Usages](https://img.shields.io/badge/AcademicUsages-21-purple?style=flat-square)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
+[![Extensions](https://img.shields.io/badge/Extensions-7-orange?style=flat-square)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#platform-extension)&nbsp;
 
 - [SimQN](#simqn)
   - [News](#News)
@@ -22,11 +23,11 @@
 
 ## News
 
-* **Version Update:** SimQN v0.2.3 has been released in June 2026.
+* 🚀 **Version Update:** SimQN v0.2.3 has been released in June 2026.
 
-* **Academic Papers:** SimQN has been implemented as the simulation platform in **24 peer-reviewed academic papers** (66 citations in total on google scholar).
+* 📚 **Academic Papers:** SimQN has been implemented as the simulation platform in **24 peer-reviewed academic papers** (66 citations in total on Google Scholar).
 
-* **Platform Extension:** **7 simulation platforms or system extensions** have been built on SimQN, with more in development.
+* 🧩 **Platform Extension:** **7 simulation platforms or system extensions** have been built on SimQN, with more in development.
 
 For more details, please refer to [Release History](#release-history), [Platform Extension](#platform-extension), and [Academic Paper Using SimQN for Simulation](#academic-paper-using-simqn-for-simulation).
 
