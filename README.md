@@ -1,11 +1,12 @@
 # SimQN
+!\[License]\(https://img.shields.io/badge/license-GPL_3.0-green)
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
-[![GitHub Stars](https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=flat)](https://github.com/QNLab-USTC/SimQN)&nbsp;
+!\[Stars]\(https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=social)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/qns?style=flat&logo=pypi&label=PyPI)](https://pypi.org/project/qns/)&nbsp;
-[![Citations](https://img.shields.io/badge/Citations-66-blue?style=flat-square&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
-[![Academic Usages](https://img.shields.io/badge/Academic-Usages-21-purple?style=flat-square)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
-[![Extensions](https://img.shields.io/badge/Extensions-7-orange?style=flat-square)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#platform-extension)&nbsp;
+[![Citations](https://img.shields.io/badge/Citations-66-blue?style=plastic&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
+[![Academic Usages](https://img.shields.io/badge/Academic_Usages-21-purple?style=plastic)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
+[![Extensions](https://img.shields.io/badge/Extensions-7-orange?style=plastic)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#platform-extension)&nbsp;
 
 - [SimQN](#simqn)
   - [News](#News)
@@ -25,7 +26,7 @@
 
 * 🚀 **Version Update:** SimQN v0.2.3 has been released in June 2026.
 
-* 📚 **Academic Papers:** SimQN has been implemented as the simulation platform in **24 peer-reviewed academic papers** (66 citations in total on Google Scholar).
+* 📚 **Academic Papers:** SimQN has been implemented as the simulation platform in **21 peer-reviewed academic papers** (66 citations in total on Google Scholar).
 
 * 🧩 **Platform Extension:** **7 simulation platforms or system extensions** have been built on SimQN, with more in development.
 
@@ -231,29 +232,26 @@ Please cite this publication if you use SimQN in your research.
 
 ## Academic Paper using SimQN for Simulation
 
-1. Li Z, Xue K, Li J, et al. DRM-ETP: Deadline-and-Reliability-Matched Entanglement Transport Protocol for Quantum Networks[J]. IEEE/ACM Transactions on Networking, 2026.
-2. Li Z, Xue K, Li J, et al. Fidelity-Guaranteed Entanglement Routing in Quantum Networks[J]. IEEE Transactions on Mobile Computing, 2026.
-3. Li Z, Xue K, Li J, et al. Multi-Entanglement Routing Design over Quantum Networks[J]. IEEE Transactions on Mobile Computing, 2026.
-4. Li Z, Xue K, Li J, et al. Q-DDCA: A QoS-aware Dynamic Distributed Coordination Algorithm for Entanglement Distribution in Quantum Networks[C]//IEEE INFOCOM 2026.
-5. Li Z, Xue K, Li J, et al. Redundant Entanglement Provisioning and Selection for Throughput Maximization in Quantum Networks[J]. IEEE/ACM Transactions on Networking, 2026.
-6. Li Z, Xue K, Li J, et al. Structural Property of the Optimal Entanglement Policy for Quantum Network Switch: An MDP Approach[J]. IEEE/ACM Transactions on Networking, 2026.
-7. Ikken N, Kumar P, Slaoui A, et al. Optimizing multi-hop quantum communication using bidirectional quantum teleportation protocol[J]. arXiv preprint arXiv:2504.07320, 2025.
-8. Kumar P, Kar B. ZBR: Zone-based routing in quantum networks with efficient entanglement distribution[J]. Journal of Network and Computer Applications, 2025, 238: 104156.
-9. Kumar P, Kar B, Shen S H. Trace-distance based end-to-end entanglement fidelity with information preservation in quantum networks[J]. Journal of Network and Computer Applications, 2025: 104366.
-10. Chen Y, Li J, Li Z, et al. An Asynchronous Key Relay Protocol Design for Large-Scale Quantum Key Distribution Networks[J]. IEEE Transactions on Networking, 2025.
-11. Zheng P, Li J, Li Z, et al. An efficient and robust resource allocation method for quantum key distribution networks[J]. IEEE Transactions on Network and Service Management, 2025.
-12. Yang Y, Li Z, Li J, et al. An On-demand Routing Scheme with QoS Provisioning for QKD Networks[C]//2025 International Conference on Quantum Communications, Networking, and Computing (QCNC). IEEE, 2025: 224-231.
-13. Tan J, Li Z, Li J, et al. Distributed Key-on-Demand Protocol Design for Dynamic Quantum Key Distribution Networks[C]//2025 QCNC. IEEE, 2025: 239-243.
-14. Li Z, Xue K, Li J, et al. Fidelity-Guaranteed Entanglement Routing in Quantum Networks[M]//Security and Privacy Vision in 6G. Wiley, 2025.
-15. Li Z, Xue K, Li J, et al. JARA: A Junbi-Aware Routing Algorithm for Entanglement Distribution in Quantum Networks[J]. IEEE/ACM Transactions on Networking, 2025.
-16. Niu J, Li Z, Li J, et al. Path-Based Entanglement Verification in Quantum Networks[C]//2025 QCNC. IEEE, 2025: 213-220.
-17. Li Z, Xue K, Li J, et al. Quantum Internet: A New World for Routing[C]//2025 QCNC. IEEE, 2025: 1-8.
-18. Li Z, Xue K, Li J, et al. QuNet: Cost vector analysis and multi-path entanglement routing in quantum networks[J]. CCF Transactions on Networking, 2025.
-19. Majid K, Agarwal S, Das S, et al. Quantum Network Simulators Integration with Open-Source 5G Mobile Stack[C]//IEEE Global Communications Conference (GLOBECOM), 2025.
-20. Wu J, Chen L, Zhang J, et al. A distributed routing protocol based on key reservation in quantum key distribution networks[C]//ICC 2024-IEEE International Conference on Communications. IEEE, 2024: 509-514.
-21. Li Z, Xue K, Li J, et al. Quantum BGP with Online Path Selection via Network Benchmarking[C]//IEEE INFOCOM 2024.
-22. Chen L, Xue K, Li J, et al. Q-DDCA: Decentralized Dynamic Congestion Avoid Routing in Large-Scale Quantum Networks[J]. IEEE/ACM Transactions on Networking, 2024.
-23. Li P, Li W. Traffic-Aware Routing Algorithm in Quantum Network[C]//International Conference on Communication, Computing & Security (ICCCS), 2024.
-24. Xiao Z, Li J, Xue K, et al. A connectionless entanglement distribution protocol design in quantum networks[J]. IEEE Network, 2023, 38(1): 131-139.
+1. Abane A, Shi J, Mai V S, et al. Multiverse: A Simulator for Evaluating Entanglement Routing in Quantum Networks[J]. IEEE Internet Computing, 2026.
+2. Ikken N, Kumar P, Slaoui A, et al. Optimizing multi-hop quantum communication using bidirectional quantum teleportation protocol[J]. arXiv preprint arXiv:2504.07320, 2025.
+3. Kumar P, Kar B. ZBR: Zone-based routing in quantum networks with efficient entanglement distribution[J]. Journal of Network and Computer Applications, 2025, 238: 104156.
+4. Kumar P, Kar B, Shen S H. Trace-distance based end-to-end entanglement fidelity with information preservation in quantum networks[J]. Journal of Network and Computer Applications, 2025: 104366.
+5. Chen Y, Li J, Li Z, et al. An Asynchronous Key Relay Protocol Design for Large-Scale Quantum Key Distribution Networks[J]. IEEE Transactions on Networking, 2025.
+6. Zheng P, Li J, Li Z, et al. An efficient and robust resource allocation method for quantum key distribution networks[J]. IEEE Transactions on Network and Service Management, 2025.
+7. Yang Y, Li Z, Li J, et al. An On-demand Routing Scheme with QoS Provisioning for QKD Networks[C]//2025 International Conference on Quantum Communications, Networking, and Computing (QCNC). IEEE, 2025: 224-231.
+8. Tan J, Li Z, Li J, et al. Distributed Entanglement Routing Scheme With Fidelity Guarantee in Quantum Networks[J]. IEEE Transactions on Network Science and Engineering, 2025, 13: 3320-3334.
+9. Li J, Zheng P, Li Z, et al. Integration of quantum key distribution networks and classical networks: An evolution perspective[J]. IEEE Network, 2025.
+10. Liu X, Li R. Quantum Network Routing Design with Dynamic Requests Scheduling in Multi-User Environments[C]//2025 International Wireless Communications and Mobile Computing (IWCMC). IEEE, 2025: 1434-1439.
+11. Yang B, Li Z, Xue K, et al. SwappingBoost: Optimizing entanglement routing by mitigating bottlenecks in quantum networks[C]//2025 International Wireless Communications and Mobile Computing (IWCMC). IEEE, 2025: 1-6.
+12. Wu J, Chen L, Zhang J, et al. A distributed routing protocol based on key reservation in quantum key distribution networks[C]//ICC 2024-IEEE International Conference on Communications. IEEE, 2024: 509-514.
+13. Liu C, Che X, Xie J, et al. A multi-path QKD algorithm with multiple segments[J]. Journal of Cyber Security and Mobility, 2024, 13(2): 193-214.
+14. Bayleyegn A A, Tunc H S D, Bassoli R, et al. Impact of Network Latency on Entanglement Distribution in Quantum Repeaters Network[C]//European Wireless 2024; 29th European Wireless Conference. VDE, 2024: 134-139.
+15. Li J, Wang Z, Xue K, et al. DRM-ETP: A Dynamic Rate Matching-Based Entanglement Transport Protocol in Quantum Networks[J]. IEEE Transactions on Networking, 2024, 33(2): 835-848.
+16. Li Z, Li J, Xue K, et al. NarrowGap: Reducing bottlenecks for end-to-end entanglement distribution in quantum networks[J]. IEEE Transactions on Networking, 2024, 33(1): 162-177.
+17. Chen L, Xue K, Li J, et al. REDP: Reliable entanglement distribution protocol design for large-scale quantum networks[J]. IEEE Journal on Selected Areas in Communications, 2024, 42(7): 1723-1737.
+18. Li P, Li W. Traffic-Aware Routing Algorithm in Quantum Network[C]//2024 9th International Conference on Computer and Communication Systems (ICCCS). IEEE, 2024: 706-711.
+19. Xiao Z, Li J, Xue K, et al. Purification scheduling control for throughput maximization in quantum networks[J]. Communications Physics, 2024, 7(1): 307.
+20. Xiao Z, Li J, Xue K, et al. A connectionless entanglement distribution protocol design in quantum networks[J]. IEEE Network, 2023, 38(1): 131-139.
+21. Chen L, Xue K, Li J, et al. Q-DDCA: Decentralized dynamic congestion avoid routing in large-scale quantum networks[J]. IEEE/ACM Transactions on Networking, 2023, 32(1): 368-381.
 
 
