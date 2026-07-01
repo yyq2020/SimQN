@@ -1,12 +1,13 @@
 # SimQN
-![License](https://img.shields.io/badge/license-GPL_3.0-green)
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
-![Stars](https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=social)
+![License](https://img.shields.io/badge/license-GPL_3.0-green)
+
+[![GitHub Stars](https://img.shields.io/github/stars/QNLab-USTC/SimQN?style=flat)](https://github.com/QNLab-USTC/SimQN)&nbsp;
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/qns?style=flat&logo=pypi&label=PyPI)](https://pypi.org/project/qns/)&nbsp;
-[![Citations](https://img.shields.io/badge/Citations-66-blue?style=plastic&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
-[![Academic Usages](https://img.shields.io/badge/Academic_Usages-21-purple?style=plastic)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
-[![Extensions](https://img.shields.io/badge/Extensions-7-orange?style=plastic)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#platform-extension)&nbsp;
+[![Citations](https://img.shields.io/badge/Citations-66-blue?style=flat&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
+[![Academic Usages](https://img.shields.io/badge/Academic_Usages-21-purple?style=flat)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
+[![Extensions](https://img.shields.io/badge/Extensions-7-orange?style=flat)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#platform-extension)&nbsp;
 
 - [SimQN](#simqn)
   - [News](#News)
@@ -22,7 +23,7 @@
   - [License and Authors](#license-and-authors)
   - [Citation](#citation)
 
-## News
+## 📰 News
 
 * 🚀 **Version Update:** SimQN v0.2.3 has been released in June 2026.
 
@@ -32,7 +33,7 @@
 
 For more details, please refer to [Release History](#release-history), [Platform Extension](#platform-extension), and [Academic Paper Using SimQN for Simulation](#academic-paper-using-simqn-for-simulation).
 
-## Overview
+## 🔭 Overview
 
 **[Attention]** Most of existing&future studies in [QNLab](https://qnlab-ustc.com/) are evaluated on SimQN platform. If you would like to follow our work or seek an easy-to-use quantum network simulator, you cannot miss SimQN! Please check out the following publication for details. **([Link](https://ieeexplore.ieee.org/abstract/document/10024900/) and [PDF](https://infonetlijian.github.io/homepage/PDF_files/2023-%E3%80%90IEEE%20Network%E3%80%91-SimQN_a_Network-layer_Simulator_for_the_Quantum_Network_Investigation.pdf)).**  
 
@@ -46,7 +47,7 @@ SimQN provides high performance for large-scale network simulation. SimQN uses [
 We have already reproduced several academic papers using SimQN, and the open-source code can be found at our group [website](https://github.com/QNLab-USTC).
 
 
-## Roadmap
+## 🗺️ Roadmap
 
 ![Roadmap](https://github.com/QNLab-USTC/QuantumNetworkWebsite/blob/main/static/images/simqn_roadmap.png)
 
@@ -60,7 +61,7 @@ We have already reproduced several academic papers using SimQN, and the open-sou
   - Support for Quantum network stack protocols, including KM protocols, routing protocols in QKD networks, and entanglement distribution protocols in quantum information networks.
   - Realization of easy-to-use GUI for SimQN.
   
-## Why choose SimQN?
+## 💡 Why choose SimQN?
 
 SimQN is designed as a functional and easy-to-use simulator, like [NS3](https://www.nsnam.org/) in classic networks, it provides numerous functions for anyone who wants to simulate a QKD network or entanglement-based network. 
 
@@ -77,14 +78,14 @@ Compared with the existing quantum network simulators, the developers pay more a
 - ...
 
 
-## Installation
+## 📦 Installation
 
 Install and update using `pip`:
 ```
 pip3 install -U qns
 ```
 
-## First sight of SimQN
+## 👀 First sight of SimQN
 
 Here is an example of using SimQN.
 
@@ -140,14 +141,14 @@ Here is an example of using SimQN.
     s.run()
 ```
 
-## Get Help
+## ❓ Get Help
 
 - This [documentation](https://qnlab-ustc.github.io/SimQN/) may answer most questions.
     - The [tutorial](https://qnlab-ustc.github.io/SimQN/tutorials.html) here presents how to use SimQN.
     - The [API manual](https://qnlab-ustc.github.io/SimQN/modules.html) shows more detailed information.
 - Welcome to report bugs at [Github](https://github.com/QNLab-USTC/SimQN).
 
-## Release History
+## 📋 Release History
 
 - v0.2.3(Released 2026.06)
   - *New funcation!!!*
@@ -179,7 +180,7 @@ Here is an example of using SimQN.
   - Applications: BB84 Protocol, Entanglement Swapping Protocol.
   - Tools: Rnd Tools.
 
-## Platform Extension
+## 🧩 Platform Extension
 
 - Josipa et al. enabled SimQN to accept structured data from upstream via the HTTP protocol by utilizing FastAPI, thereby developing a [Docker environment for QKD network simulations](https://repozitorij.fpz.unizg.hr/object/fpz:3666). [2025]
 - Majid K et al. integrated SimQN with the open-source OpenAirInterface (OAI) stack to deploy a 5G standalone network capable of supporting quantum operations, proposing the [quantum-inspired RAN (Q-RAN)](https://ieeexplore.ieee.org/abstract/document/11432359), a next-generation framework. [2025]
@@ -189,10 +190,10 @@ Here is an example of using SimQN.
 - [QKDsim](https://github.com/zp2333/QKDsim) ⭐2: A QKD network simulation system implemented based on SimQN. [2025]
 - [Q-cast](https://github.com/tanjiesheng/Q-cast): A quantum communication simulation platform built on SimQN, supporting multicast entanglement distribution and routing. [2025]
 
-## How to contribute?
+## 🤝 How to contribute?
 Welcome to contribute through GitHub Issue or Pull Requests. Please refer to the [develop guide](https://qnlab-ustc.github.io/SimQN/develop.html). If you have any questions, you are welcome to contact the developers via e-mail.
 
-## License and Authors
+## 👥 License and Authors
 
 SimQN is an open-source project under [GPLv3](/LICENSE) license. The authors of the paper include:
 * Lutong Chen (ertuil), School of Cyber Science and Technology, University of Science and Technology of China, China. elliot.98@outlook.com
@@ -212,7 +213,7 @@ Other contributors include:
 * ShaoChuang Heng, School of Cyber Science and Technology, University of Science and Technology of China, China.
 * Jianfeng Niu, School of Cyber Science and Technology, University of Science and Technology of China, China.
 
-## Citation
+## 📝 Citation
 
 Please cite this publication if you use SimQN in your research.
 
@@ -230,7 +231,7 @@ Please cite this publication if you use SimQN in your research.
 }
 ```
 
-## Academic Paper using SimQN for Simulation
+## 📚 Academic Paper using SimQN for Simulation
 
 1. Abane A, Shi J, Mai V S, et al. Multiverse: A Simulator for Evaluating Entanglement Routing in Quantum Networks[J]. IEEE Internet Computing, 2026.
 2. Ikken N, Kumar P, Slaoui A, et al. Optimizing multi-hop quantum communication using bidirectional quantum teleportation protocol[J]. arXiv preprint arXiv:2504.07320, 2025.
