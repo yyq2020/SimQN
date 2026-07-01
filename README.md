@@ -1,7 +1,6 @@
 # SimQN
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
-
 [![Citations](https://img.shields.io/badge/Citations-47-blue?style=flat-square)](https://scholar.google.com/scholar?cites=)&nbsp;
 [![Extensions](https://img.shields.io/badge/Extensions-7-green?style=flat-square)](#platform-extension)&nbsp;
 [![Users](https://img.shields.io/badge/Users-24-brightgreen?style=flat-square)](#academic-paper-using-simqn-for-simulation)
