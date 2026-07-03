@@ -1,6 +1,4 @@
 # SimQN
-<img src="docs/assets/qnlab-logo.png" alt="QN-Lab | USTC" width="180" align="right" />
-
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
 [![License](https://img.shields.io/badge/License-GPL_3.0-green?logo=github&logoColor=white)](LICENSE)
@@ -9,6 +7,11 @@
 [![Citations](https://img.shields.io/badge/Citations-66-blue?style=flat&logo=googlescholar)](https://scholar.google.com/scholar?cites=17361842933401893020)&nbsp;
 [![Academic Usages](https://img.shields.io/badge/Academic_Usages-21-purple?style=flat)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#academic-paper-using-simqn-for-simulation)
 [![Extensions](https://img.shields.io/badge/Extensions-7-orange?style=flat)](https://github.com/QNLab-USTC/SimQN?tab=readme-ov-file#platform-extension)&nbsp;
+
+This Project is developed by [QNLab](https://qnlab-ustc.com/).
+
+<img src="docs/assets/qnlab-logo.png" alt="QN-Lab | USTC" width="360" align="center" />
+
 
 - [SimQN](#simqn)
   - [News](#news)
