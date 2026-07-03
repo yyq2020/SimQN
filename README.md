@@ -1,6 +1,5 @@
 # SimQN
 <img src="docs/assets/qnlab-logo.png" alt="QN-Lab | USTC" width="180" align="right" />
-
 [![Pytest](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/QNLab-USTC/SimQN/actions/workflows/pytest.yml)
 ![Flake8](https://github.com/QNLab-USTC/SimQN/actions/workflows/flake8.yml/badge.svg)
 [![License](https://img.shields.io/badge/License-GPL_3.0-green?logo=github&logoColor=white)](LICENSE)
